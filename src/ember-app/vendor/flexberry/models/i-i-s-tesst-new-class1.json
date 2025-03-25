@@ -1,0 +1,15 @@
+﻿{
+  "name": "IISTesstNewClass1",
+  "modelName": "i-i-s-tesst-new-class1",
+  "className": "NewClass1",
+  "nameSpace": "IIS.Tesst",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
