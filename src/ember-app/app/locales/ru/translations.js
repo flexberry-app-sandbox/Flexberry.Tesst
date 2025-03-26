@@ -1,6 +1,8 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
+import IISTesstNewClass1LForm from './forms/i-i-s-tesst-new-class1-l';
+import IISTesstNewClass1EForm from './forms/i-i-s-tesst-new-class1-e';
 import IISTesstNewClass1Model from './models/i-i-s-tesst-new-class1';
 
 const translations = {};
@@ -11,7 +13,7 @@ $.extend(true, translations, {
     'i-i-s-tesst-new-class1': IISTesstNewClass1Model,
   },
 
-  'application-name': '',
+  'application-name': 'Tesst',
 
   forms: {
     loading: {
@@ -50,7 +52,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': '',
+        'application-name': 'Tesst',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -61,8 +63,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: '',
-          title: '',
+          caption: 'Tesst',
+          title: 'Tesst',
         },
         'application-version': {
           caption: 'Версия аддона {{version}}',
@@ -74,7 +76,14 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: '',
         },
-
+        tesst: {
+          caption: 'Tesst',
+          title: 'Tesst',
+          'i-i-s-tesst-new-class1-l': {
+            caption: 'New class1',
+            title: '',
+          },
+        },
       },
     },
 
@@ -86,7 +95,8 @@ $.extend(true, translations, {
       'delete-success-message': 'Объект удален',
       'delete-error-message-caption': 'Ошибка удаления',
     },
-,
+    'i-i-s-tesst-new-class1-l': IISTesstNewClass1LForm,
+    'i-i-s-tesst-new-class1-e': IISTesstNewClass1EForm,
   },
 
 });

@@ -8,7 +8,22 @@
   "attrs": [],
   "belongsTo": [],
   "hasMany": [],
-  "projections": [],
+  "projections": [
+    {
+      "name": "NewClass1E",
+      "modelName": "i-i-s-tesst-new-class1",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "NewClass1L",
+      "modelName": "i-i-s-tesst-new-class1",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
   "stored": true,
   "offline": true,
   "external": false
