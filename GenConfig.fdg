@@ -16,7 +16,7 @@
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": true
+        "GhPagesPush": false
       },
       "ApacheCordova": {
         "CordovaProject": false,
